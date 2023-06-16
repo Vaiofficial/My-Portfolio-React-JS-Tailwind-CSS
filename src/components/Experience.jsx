@@ -5,13 +5,13 @@ import tailwind from "../assets/portfolio/tailwind.png";
 import javascript from "../assets/portfolio/javascript.png";
 import reactImage from "../assets/portfolio/react.png";
 import nodejs from "../assets/portfolio/node.png";
-import express from "../assets/portfolio/html.png";
-import mongo from "../assets/portfolio/html.png";
+import express from "../assets/portfolio/expressjs.png";
+import mongo from "../assets/portfolio/mongodb.png";
 import github from "../assets/portfolio/github.png";
-import python from "../assets/portfolio/html.png";
-import cpp from "../assets/portfolio/html.png";
+import python from "../assets/portfolio/Pythonn.webp";
+import cpp from "../assets/portfolio/cpp.png";
 // import java from "../assets/portfolio/html.png";
-import postman from "../assets/portfolio/html.png";
+import postman from "../assets/portfolio/postmann.png";
 
 const Experience = () => {
   const techs = [
@@ -19,19 +19,19 @@ const Experience = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-blue-500",
+      style: "shadow-orange-500",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-orange-500",
+      style: "shadow-blue-500",
     },
     {
       id: 3,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-blue-500",
+      style: "shadow-blue-400",
     },
     {
       id: 4,
@@ -43,25 +43,25 @@ const Experience = () => {
       id: 5,
       src: reactImage,
       title: "ReactJS",
-      style: "shadow-blue-600",
+      style: "shadow-blue-400",
     },
     {
       id: 6,
       src: nodejs,
       title: "NodeJS",
-      style: "shadow-green-500",
+      style: "shadow-green-400",
     },
     {
       id: 7,
       src: express,
       title: "ExpressJS",
-      style: "shadow-orange-500",
+      style: "shadow-black",
     },
     {
       id: 8,
       src: mongo,
       title: "MongoDB",
-      style: "shadow-orange-600",
+      style: "shadow-green-600",
     },
     {
       id: 9,
@@ -85,7 +85,7 @@ const Experience = () => {
       id: 12,
       src: postman,
       title: "Postman API",
-      style: "shadow-orange-500",
+      style: "shadow-orange-500 pt-4",
     },
   ];
 

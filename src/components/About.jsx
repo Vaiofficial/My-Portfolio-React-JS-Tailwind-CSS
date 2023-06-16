@@ -12,23 +12,13 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat cum
-          voluptate iste corrupti incidunt non labore recusandae distinctio
-          reprehenderit repellat ipsa, nisi magni. Soluta corrupti iure aliquid
-          nemo quaerat corporis eveniet assumenda vitae similique quos sequi
-          libero dignissimos quam, voluptates fuga blanditiis? Veritatis
-          pariatur libero, harum suscipit aliquam consectetur dolores!
+        Welcome to my portfolio website! I am P VAIBHAV, an ambitious student specializing in AI and ML. With expertise in full-stack web development, I create dynamic and engaging websites from front-end to back-end. As a YouTube tutor, I have the pleasure of sharing my knowledge on coding, DSA, and engineering subjects with a wide audience. 
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-          provident iste officiis repellendus temporibus? Ratione illo unde rem
-          in nemo quod, veniam neque cupiditate similique a cum aperiam dolores
-          impedit maiores nam, ut, ex explicabo doloremque. Dolore soluta ipsam
-          ad impedit temporibus, hic ut nam molestias aperiam maiores blanditiis
-          totam.
+        Passionate about open-source collaboration, I actively contribute to projects, showcasing my skills and innovative ideas. Having secured two national-level hackathon victories, I demonstrate my ability to solve complex problems. In addition to my coding prowess, I indulge in graphic design, blogging, and video editing to unleash my creativity. Feel free to explore my portfolio and discover the intersection of technology and artistic expression.
         </p>
       </div>
     </div>
