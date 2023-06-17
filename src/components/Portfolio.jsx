@@ -1,10 +1,12 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import Clipboard from "../assets/portfolio/Clipboard.png";
+import product from "../assets/portfolio/PRODUCT.png";
+import dicet from "../assets/portfolio/DICET (1).png";
+import pricing from "../assets/portfolio/PRICING.png";
+import list from "../assets/portfolio/listnew.png";
+import portfolio from "../assets/portfolio/portfolio.png";
+// import {Link} from "react-router-dom";
+
 
 const Portfolio = () => {
   // CREATING ARRAY FOR GRID ITEMS
@@ -12,33 +14,47 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: Clipboard,
+      demo:'https://nimble-brigadeiros-78aac1.netlify.app/',
+      code:'https://github.com/Vaiofficial/clipboard-website.git'
     },
     {
       id: 2,
-      src: installNode,
+      src: product,
+      demo:'https://jocular-wisp-6affa7.netlify.app/',
+      code:'https://github.com/Vaiofficial/Responsive-Product-Modal.git'
     },
     {
       id: 3,
-      src: navbar,
+      src: dicet,
+      demo:'https://github.com/Vaiofficial?tab=repositories',
+      code:'https://github.com/Vaiofficial/Dicet-website-clone.git'
     },
     {
       id: 4,
-      src: reactParallax,
+      src: pricing,
+      demo:'https://delightful-buttercream-ab75bb.netlify.app/',
+      code:'https://github.com/Vaiofficial/Responsive-Pricing-Grid-Tailwind-CSS.git'
     },
     {
       id: 5,
-      src: reactSmooth,
+      src: list,
+      demo:'todolistprojectjs.netlify.app',
+      code:'https://github.com/Vaiofficial/To-Do-List-Using-HTML-Tailwind-CSS-JS.git'
     },
     {
       id: 6,
-      src: reactWeather,
+      src: portfolio,
+      demo:'https://github.com/Vaiofficial?tab=repositories',
+      code:'https://github.com/Vaiofficial?tab=repositories'
     },
   ];
+
+
   return (
     <div
       name="Portfolio"
-      className=" w-full text-white md:h-screen bg-gradient-to-b from-black to-gray-800 "
+      className=" w-full text-white md:h-screen bg-gradient-to-b from-black to-gray-800 \"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         {/* THIS DIV IS FOR THE HEADING */}
@@ -56,7 +72,7 @@ const Portfolio = () => {
           
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
         >
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src , demo , code}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -64,12 +80,14 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href={demo} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                </a>
+
+                <a href={code} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
-                </button>
+                </a>
+
               </div>
             </div>
           ))}

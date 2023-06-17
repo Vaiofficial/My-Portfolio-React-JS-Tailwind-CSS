@@ -13,9 +13,9 @@ const Home = () => {
 
           {/* Home page paragraph here */}
           <p className="py-4 max-w-md text-gray-500">
-            I'am a 2nd Year AL&ML Student. Currently I am working on Web App
-            Projects using Technologies like React , Tailwind , Node , Express &
-            MongoDB.
+          Welcome to my portfolio! I'm a 2nd-year AL&ML student and a coding tutor on YouTube.
+          With expertise in React, Tailwind, Node, Express, and MongoDB, I create engaging web applications.
+          Explore my portfolio. Let's build something amazing together!
           </p>
 
           {/* Button tab here */}

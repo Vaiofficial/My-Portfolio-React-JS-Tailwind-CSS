@@ -24,6 +24,10 @@ const Navbar = () => {
     },
     {
       id: 5,
+      link: "youtube channel",
+    },
+    {
+      id: 6,
       link: "contact",
     },
   ];

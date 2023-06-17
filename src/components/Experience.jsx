@@ -1,17 +1,17 @@
 import React from "react";
+
 import html from "../assets/portfolio/html.png";
 import css from "../assets/portfolio/css.png";
 import tailwind from "../assets/portfolio/tailwind.png";
 import javascript from "../assets/portfolio/javascript.png";
 import reactImage from "../assets/portfolio/react.png";
-import nodejs from "../assets/portfolio/node.png";
+import node from "../assets/portfolio/node.png";
 import express from "../assets/portfolio/expressjs.png";
 import mongo from "../assets/portfolio/mongodb.png";
-import github from "../assets/portfolio/github.png";
-import python from "../assets/portfolio/Pythonn.webp";
+import python from "../assets/portfolio/python.png";
 import cpp from "../assets/portfolio/cpp.png";
-// import java from "../assets/portfolio/html.png";
-import postman from "../assets/portfolio/postmann.png";
+import github from "../assets/portfolio/github.png";
+import postman from "../assets/portfolio/postman.png";
 
 const Experience = () => {
   const techs = [
@@ -31,7 +31,7 @@ const Experience = () => {
       id: 3,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-blue-400",
+      style: "shadow-sky-400",
     },
     {
       id: 4,
@@ -42,71 +42,67 @@ const Experience = () => {
     {
       id: 5,
       src: reactImage,
-      title: "ReactJS",
-      style: "shadow-blue-400",
+      title: "React",
+      style: "shadow-blue-600",
     },
     {
       id: 6,
-      src: nodejs,
-      title: "NodeJS",
+      src: node,
+      title: "Node JS",
       style: "shadow-green-400",
     },
     {
       id: 7,
       src: express,
-      title: "ExpressJS",
+      title: "Express JS",
       style: "shadow-black",
     },
     {
       id: 8,
       src: mongo,
       title: "MongoDB",
-      style: "shadow-green-600",
+      style: "shadow-green-500",
     },
     {
       id: 9,
-      src: github,
-      title: "GitHub",
-      style: "shadow-white",
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-300",
     },
     {
       id: 10,
-      src: python,
-      title: "Python",
-      style: "shadow-yellow-500",
+      src: cpp,
+      title: "C & C++",
+      style: "shadow-blue-600",
     },
     {
       id: 11,
-      src: cpp,
-      title: "C & C++",
-      style: "shadow-blue-500",
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
     },
     {
       id: 12,
       src: postman,
       title: "Postman API",
-      style: "shadow-orange-500 pt-4",
+      style: "shadow-orange-400",
     },
   ];
 
   return (
-    <div 
+    <div
       name="experience"
-      className=" w-full h-screen bg-gradient-to-b from-gray-800 to-black"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-screen text-white">
-
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 p-2">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6 ">These are the Technology I am working with
-          </p>
+          <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        {/* Area for images */}
-
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

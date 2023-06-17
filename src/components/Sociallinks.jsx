@@ -2,7 +2,8 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import {AiFillYoutube} from 'react-icons/ai';
+import { AiFillYoutube } from "react-icons/ai";
+// import { Link, useNavigate } from "react-router-dom";
 
 const Sociallinks = () => {
   const links = [
@@ -46,9 +47,9 @@ const Sociallinks = () => {
       ),
       href: "/pvaibhav_resume_done final.pdf",
       download: true,
-      style:'pl-3'
+      style: "pl-3",
     },
-    
+
     {
       id: 5,
       child: (
@@ -59,7 +60,6 @@ const Sociallinks = () => {
       href: "https://youtube.com/@VaibhavTalkspv",
       style: "rounded-br-md",
     },
-
   ];
 
   return (
