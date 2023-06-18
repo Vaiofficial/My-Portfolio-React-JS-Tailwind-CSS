@@ -45,7 +45,7 @@ const Portfolio = () => {
     {
       id: 6,
       src: portfolio,
-      demo:'vaibhavofficialportfolio.netlify.app',
+      demo:'/',
       code:'https://github.com/Vaiofficial/My-Portfolio-React-JS-Tailwind-CSS.git'
     },
   ];
