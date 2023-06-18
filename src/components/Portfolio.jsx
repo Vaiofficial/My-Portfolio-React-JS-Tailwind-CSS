@@ -15,31 +15,31 @@ const Portfolio = () => {
     {
       id: 1,
       src: Clipboard,
-      demo:'https://nimble-brigadeiros-78aac1.netlify.app/',
+      demo:'https://clipboard-website1.netlify.app/',
       code:'https://github.com/Vaiofficial/clipboard-website.git'
     },
     {
       id: 2,
       src: product,
-      demo:'https://jocular-wisp-6affa7.netlify.app/',
+      demo:'https://product-modal1.netlify.app/',
       code:'https://github.com/Vaiofficial/Responsive-Product-Modal.git'
     },
     {
       id: 3,
       src: dicet,
-      demo:'https://github.com/Vaiofficial?tab=repositories',
+      demo:'https://dicet-website-clone.netlify.app/',
       code:'https://github.com/Vaiofficial/Dicet-website-clone.git'
     },
     {
       id: 4,
       src: pricing,
-      demo:'https://delightful-buttercream-ab75bb.netlify.app/',
+      demo:'https://pricing-grid1.netlify.app/',
       code:'https://github.com/Vaiofficial/Responsive-Pricing-Grid-Tailwind-CSS.git'
     },
     {
       id: 5,
       src: list,
-      demo:'todolistprojectjs.netlify.app',
+      demo:'https://todolistprojectjs.netlify.app/',
       code:'https://github.com/Vaiofficial/To-Do-List-Using-HTML-Tailwind-CSS-JS.git'
     },
     {
