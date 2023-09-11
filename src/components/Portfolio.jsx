@@ -4,7 +4,7 @@ import product from "../assets/portfolio/PRODUCT.png";
 import dicet from "../assets/portfolio/DICET (1).png";
 import pricing from "../assets/portfolio/PRICING.png";
 import list from "../assets/portfolio/listnew.png";
-import countdowntimer from "../assets/portfolio/countdowntimer.png";
+import countdowntimer from "../assets/portfolio/countdowntimer1.png";
 
 // import {Link} from "react-router-dom";
 
@@ -44,7 +44,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: countdowntimer,
+      src: countdowntimer1,
       demo: "https://bucolic-chebakia-ec0430.netlify.app",
       code: "https://github.com/Vaiofficial/Countdown-Timer-JS.git",
     },
@@ -62,7 +62,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
             Portfolio
           </p>
-          <p className="py-6">Check our some of my work right here</p>
+          <p className="py-6">Check out some of my work right here</p>
         </div>
 
         {/* THIS DIV IS FOR THE WHOLE STRUCTURE OF THE CART - GRID ITEMS*/}
