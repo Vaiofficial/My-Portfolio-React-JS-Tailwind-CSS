@@ -4,7 +4,7 @@ import product from "../assets/portfolio/PRODUCT.png";
 import dicet from "../assets/portfolio/DICET (1).png";
 import pricing from "../assets/portfolio/PRICING.png";
 import list from "../assets/portfolio/listnew.png";
-import countdowntimer from "../assets/portfolio/countdowntimer1.png";
+import countdowntimer from "../assets/portfolio/countimage.png";
 
 // import {Link} from "react-router-dom";
 
