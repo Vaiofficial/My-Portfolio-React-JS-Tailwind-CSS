@@ -44,8 +44,8 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: portfolio,
-      demo:'/',
+      src: countdown,
+      demo:'https://bucolic-chebakia-ec0430.netlify.app',
       code:'https://github.com/Vaiofficial/Countdown-Timer-JS.git'
     },
   ];
