@@ -4,7 +4,7 @@ import product from "../assets/portfolio/PRODUCT.png";
 import dicet from "../assets/portfolio/DICET (1).png";
 import pricing from "../assets/portfolio/PRICING.png";
 import list from "../assets/portfolio/listnew.png";
-import portfolio from "../assets/portfolio/portfolio.png";
+import portfolio from "../assets/portfolio/countdown.jpg";
 // import {Link} from "react-router-dom";
 
 
@@ -46,7 +46,7 @@ const Portfolio = () => {
       id: 6,
       src: portfolio,
       demo:'/',
-      code:'https://github.com/Vaiofficial/My-Portfolio-React-JS-Tailwind-CSS.git'
+      code:'https://github.com/Vaiofficial/Countdown-Timer-JS.git'
     },
   ];
 
