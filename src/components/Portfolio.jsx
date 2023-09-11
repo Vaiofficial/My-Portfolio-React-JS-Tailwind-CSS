@@ -4,9 +4,9 @@ import product from "../assets/portfolio/PRODUCT.png";
 import dicet from "../assets/portfolio/DICET (1).png";
 import pricing from "../assets/portfolio/PRICING.png";
 import list from "../assets/portfolio/listnew.png";
-import portfolio from "../assets/portfolio/countdown.jpg";
-// import {Link} from "react-router-dom";
+import countdowntimer from "../assets/portfolio/countdowntimer.png";
 
+// import {Link} from "react-router-dom";
 
 const Portfolio = () => {
   // CREATING ARRAY FOR GRID ITEMS
@@ -15,41 +15,40 @@ const Portfolio = () => {
     {
       id: 1,
       src: Clipboard,
-      demo:'https://clipboard-website1.netlify.app/',
-      code:'https://github.com/Vaiofficial/clipboard-website.git'
+      demo: "https://clipboard-website1.netlify.app/",
+      code: "https://github.com/Vaiofficial/clipboard-website.git",
     },
     {
       id: 2,
       src: product,
-      demo:'https://product-modal1.netlify.app/',
-      code:'https://github.com/Vaiofficial/Responsive-Product-Modal.git'
+      demo: "https://product-modal1.netlify.app/",
+      code: "https://github.com/Vaiofficial/Responsive-Product-Modal.git",
     },
     {
       id: 3,
       src: dicet,
-      demo:'https://dicet-website-clone.netlify.app/',
-      code:'https://github.com/Vaiofficial/Dicet-website-clone.git'
+      demo: "https://dicet-website-clone.netlify.app/",
+      code: "https://github.com/Vaiofficial/Dicet-website-clone.git",
     },
     {
       id: 4,
       src: pricing,
-      demo:'https://pricing-grid1.netlify.app/',
-      code:'https://github.com/Vaiofficial/Responsive-Pricing-Grid-Tailwind-CSS.git'
+      demo: "https://pricing-grid1.netlify.app/",
+      code: "https://github.com/Vaiofficial/Responsive-Pricing-Grid-Tailwind-CSS.git",
     },
     {
       id: 5,
       src: list,
-      demo:'https://todolistprojectjs.netlify.app/',
-      code:'https://github.com/Vaiofficial/To-Do-List-Using-HTML-Tailwind-CSS-JS.git'
+      demo: "https://todolistprojectjs.netlify.app/",
+      code: "https://github.com/Vaiofficial/To-Do-List-Using-HTML-Tailwind-CSS-JS.git",
     },
     {
       id: 6,
-      src: countdown,
-      demo:'https://bucolic-chebakia-ec0430.netlify.app',
-      code:'https://github.com/Vaiofficial/Countdown-Timer-JS.git'
+      src: countdowntimer,
+      demo: "https://bucolic-chebakia-ec0430.netlify.app",
+      code: "https://github.com/Vaiofficial/Countdown-Timer-JS.git",
     },
   ];
-
 
   return (
     <div
@@ -68,11 +67,8 @@ const Portfolio = () => {
 
         {/* THIS DIV IS FOR THE WHOLE STRUCTURE OF THE CART - GRID ITEMS*/}
 
-        <div
-          
-          className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
-        >
-          {portfolios.map(({ id, src , demo , code}) => (
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -80,14 +76,19 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <a href={demo} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={demo}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Demo
                 </a>
 
-                <a href={code} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={code}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
                 </a>
-
               </div>
             </div>
           ))}
